@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"	
+	xmlns:f="http://java.sun.com/jsf/core">
+
+ 	<body>
+		<h:form id="formMenu">
+	    	<p:menubar>
+        		<p:menuitem action="#{mainBean.menuAction}" 
+        			value="Home">            
+        		</p:menuitem>
+ 				<p:menuitem action="#{page1Bean.menuAction}" 
+ 					value="Página 1">            
+        		</p:menuitem>
+ 				<p:menuitem action="#{page2Bean.menuAction}" 
+ 					value="Página 2">            
+        		</p:menuitem>        
+    		</p:menubar>	            
+		</h:form>		
+	</body>
+</html>
